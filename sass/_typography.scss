@@ -1,0 +1,52 @@
+html {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: 300;
+}
+
+h2 {
+	padding: 0 0 20px 20px;
+	border-bottom: 1px solid $lgrey;
+	font-size: 23px;
+	font-weight: 300;
+	color: $black;
+}
+
+h3 {
+	padding: 13px 0;
+	font-size: 20px;
+	font-weight: 300;
+	color: $black;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+	color: $black;
+}
+
+a {
+	@include unstyled-link;
+	padding-left: 5px;
+	color: $orange;
+}
+
+.list-item {
+	float: left;
+}
+
+.list-item::after {
+	content: '\2022';
+	padding: 0 5px;
+}
+
+.last-list-item::after {
+	content: '' !important;
+}
+
+.text-orange {
+	color: $orange;
+}
