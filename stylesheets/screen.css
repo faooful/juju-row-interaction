@@ -160,6 +160,8 @@ body {
   height: 9px;
   padding: 20px 10px;
   border-bottom: 1px dotted #cdcdcd;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   cursor: pointer;
 }
 /* line 9, ../sass/_row.scss */
