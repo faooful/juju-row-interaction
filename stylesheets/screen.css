@@ -160,16 +160,14 @@ body {
   height: 9px;
   padding: 20px 10px;
   border-bottom: 1px dotted #cdcdcd;
-  -webkit-transition: all .3s;
-  transition: all .3s;
   cursor: pointer;
 }
-/* line 9, ../sass/_row.scss */
+/* line 7, ../sass/_row.scss */
 .row:hover {
   background: white;
   box-shadow: 0 1px 4.85px 0.15px rgba(0, 0, 0, 0.2);
 }
-/* line 13, ../sass/_row.scss */
+/* line 11, ../sass/_row.scss */
 .row p {
   width: 950px;
   opacity: 1;
@@ -181,37 +179,36 @@ body {
   transition: all .3s;
 }
 
-/* line 25, ../sass/_row.scss */
+/* line 23, ../sass/_row.scss */
 .row-start {
   border-top: 1px solid #cdcdcd;
 }
 
-/* line 29, ../sass/_row.scss */
+/* line 27, ../sass/_row.scss */
 .row-end {
   border-bottom: 1px solid #cdcdcd;
 }
 
-/* line 33, ../sass/_row.scss */
+/* line 31, ../sass/_row.scss */
 .expand {
   cursor: pointer;
 }
 
-/* line 37, ../sass/_row.scss */
+/* line 35, ../sass/_row.scss */
 .row-expand {
   height: 400px;
 }
-/* line 39, ../sass/_row.scss */
+/* line 37, ../sass/_row.scss */
 .row-expand p {
-  display: none;
-  opacity: 0;
+  transform: translateY(20px);
 }
-/* line 43, ../sass/_row.scss */
+/* line 40, ../sass/_row.scss */
 .row-expand:hover {
   background: none !important;
   box-shadow: none !important;
 }
 
-/* line 49, ../sass/_row.scss */
+/* line 46, ../sass/_row.scss */
 .row-content {
   height: 29px;
   background: white;
@@ -222,7 +219,7 @@ body {
   box-shadow: 0 1px 4.85px 0.15px rgba(0, 0, 0, 0.2);
 }
 
-/* line 59, ../sass/_row.scss */
+/* line 56, ../sass/_row.scss */
 .content-reveal {
   height: 400px;
   opacity: 1;

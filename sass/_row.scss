@@ -3,8 +3,6 @@
 	height: 9px;
 	padding: 20px 10px;
 	border-bottom: 1px dotted $lgrey;
-	-webkit-transition: all .3s;
-    transition: all .3s;
     cursor: pointer;
     &:hover {
     	background: white;
@@ -37,8 +35,7 @@
 .row-expand {
 	height: 400px;
 	p {
-		display: none;
-		opacity: 0;
+		transform: translateY(20px);
 	}
 	&:hover {
     	background: none !important;
