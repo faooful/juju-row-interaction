@@ -177,38 +177,39 @@ body {
   line-height: 0.8;
   -webkit-transition: all .3s;
   transition: all .3s;
+  z-index: 10;
 }
 
-/* line 23, ../sass/_row.scss */
+/* line 24, ../sass/_row.scss */
 .row-start {
   border-top: 1px solid #cdcdcd;
 }
 
-/* line 27, ../sass/_row.scss */
+/* line 28, ../sass/_row.scss */
 .row-end {
   border-bottom: 1px solid #cdcdcd;
 }
 
-/* line 31, ../sass/_row.scss */
+/* line 32, ../sass/_row.scss */
 .expand {
   cursor: pointer;
 }
 
-/* line 35, ../sass/_row.scss */
+/* line 36, ../sass/_row.scss */
 .row-expand {
   height: 400px;
 }
-/* line 37, ../sass/_row.scss */
+/* line 38, ../sass/_row.scss */
 .row-expand p {
   transform: translateY(20px);
 }
-/* line 40, ../sass/_row.scss */
+/* line 41, ../sass/_row.scss */
 .row-expand:hover {
   background: none !important;
   box-shadow: none !important;
 }
 
-/* line 46, ../sass/_row.scss */
+/* line 47, ../sass/_row.scss */
 .row-content {
   height: 29px;
   background: white;
@@ -219,7 +220,7 @@ body {
   box-shadow: 0 1px 4.85px 0.15px rgba(0, 0, 0, 0.2);
 }
 
-/* line 56, ../sass/_row.scss */
+/* line 57, ../sass/_row.scss */
 .content-reveal {
   height: 400px;
   opacity: 1;
